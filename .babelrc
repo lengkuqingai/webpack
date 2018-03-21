@@ -1,0 +1,6 @@
+{
+    "presets": [//presets里面表示支持的语法，loose表示语言是松散的，不是非常严格的，因为babel-core默认是解析js，为了需要支持其他语言，则应在这里添加，包含进去
+        ["es2015",{"loose":true}],
+        "react"
+    ]
+}
